@@ -113,7 +113,7 @@ function update() {
       score += 0.5; // there are 2 points
       pipe.passed = true;
     }
-    if ((score %= 10)) {
+    if (score % 10) {
       timer - 100;
     }
     if (detecCollision(bird, pipe)) {
