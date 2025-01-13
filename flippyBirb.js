@@ -76,6 +76,7 @@ window.onload = function () {
   setInterval(placePipes, timer);
   setInterval(animaBird, 100);
   document.addEventListener("keydown", moveBird);
+  document.addEventListener("click", moveBird2);
 };
 
 function update() {
