@@ -1,0 +1,9 @@
+body {
+  font-family: "Pixelify Sans", serif;
+  text-align: center;
+}
+
+#board {
+  /* background-color: skyblue; */
+  background-image: url(./flappybirdbg.png);
+}
