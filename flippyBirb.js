@@ -190,6 +190,19 @@ function moveBird(e) {
     }
   }
 }
+function moveBird2(e) {
+  bgm.play();
+  //jump
+  velocityY = -6;
+
+  //restart game
+  if (gameOver) {
+    bird.y = bird.y;
+    pipeArray = [];
+    score = 0;
+    gameOver = false;
+  }
+}
 
 function detecCollision(a, b) {
   return (
